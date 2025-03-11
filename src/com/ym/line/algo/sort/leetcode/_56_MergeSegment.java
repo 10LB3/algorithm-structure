@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class MergeSegment {
+public class _56_MergeSegment {
     public int[][] segment(int[][] intervals){
         // 1.按照区间左边的值进行升序排列
         Arrays.sort(intervals, new Comparator<int[]>() {
